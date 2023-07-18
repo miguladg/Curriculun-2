@@ -1,0 +1,141 @@
+.container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 5px; /* Espacio entre las columnas */
+    
+  }
+  
+  .left {
+    width: 100%;
+    text-align: center;
+    background-color: #d0ccd0;
+
+  }
+  
+  .right {
+    /* Estilos para la columna derecha */
+    background-color: #274156;
+  }
+/* Media query para dispositivos con un ancho máximo de 768px (por ejemplo, tablets y móviles) */
+
+.foto {
+   margin-top: 10px; 
+   border-radius: 100%; 
+  }
+p {
+  padding-left: 20px;
+  text-align: left;
+  margin: 25px;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size: 48px;
+  text-align: left;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  color: white;
+}
+
+h3{
+  text-align: left;
+  margin-left: 7%;
+
+}
+h4{
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 7%;
+  margin-top: 0%;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 10PX;
+}
+.sewcond-titel{
+color:;
+}
+
+li{
+  margin: 20px;
+  text-align: left;
+}
+.title-radius{
+  font-size: 24px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  background-color: #274156;
+  padding: 10px;
+  border-radius: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+  .experience-titel{
+    margin-left: 0%; 
+    color: white;
+    font-size: 25px;
+  }
+  .line{
+  color: white;
+
+  }
+
+
+.experience-right{
+  text-align: left;
+  color: white;
+  margin-top: 25px;
+  margin-left: 7%;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.experience-company{
+  color: white;
+  font-size: 20px;
+  margin-left: 7%;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+h6{
+  color: white;
+  margin-left: 7%;
+  font-size: 18px;
+  margin-top: 5;
+  margin-top: 25px;
+  margin-left: 7%;
+  margin-bottom: 5px;
+}
+.date{
+  color: white;
+  text-align: right;
+  margin-right: 27px;
+}
+.text{
+  color: white ;
+  margin-left: 4.5%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    grid-template-columns: 100%; /* Cambia a una sola columna */
+     }
+
+    
+  }
