@@ -103,7 +103,7 @@ li{
   margin-top: 20px;
   margin-left: 30px;
   font-size: 24px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 .experience-company{
   color: white;
@@ -116,15 +116,15 @@ h6{
   color: white;
   margin-left: 30px;
   font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 .date{
   color: white;
   text-align: right;
   margin-right: 27px;
-  margin-top: 5PX;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .text{
   color: white ;
@@ -140,6 +140,10 @@ h6{
   color: white;
 }
 
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 @media screen and (max-width: 780px) {
   .container {
     grid-template-columns: 100%; /* Cambia a una sola columna */
