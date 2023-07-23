@@ -57,8 +57,7 @@ h4{
   color: white;
   text-align: left;
   font-size: 24px;
-  margin-left: 7%;
-  margin-top: 0%;
+  margin-top: 5px;
 }
 p{
   margin-top: 10px;
@@ -115,11 +114,9 @@ li{
 }
 h6{
   color: white;
-  margin-left: 7%;
+  margin-left: 30px;
   font-size: 18px;
-  margin-top: 5;
   margin-top: 25px;
-  margin-left: 7%;
   margin-bottom: 5px;
 }
 .date{
@@ -129,7 +126,7 @@ h6{
 }
 .text{
   color: white ;
-  margin-left: 4.5%;
+  margin-left: 10px;
   text-align: justify;
 }
 
