@@ -20,13 +20,16 @@
 
 .foto {
    margin-top: 10px; 
-   border-radius: 100%; 
+   border-radius: 100%;
+   width: 221px;
+   border-top: 1px solid #369;
   }
 p {
   padding-left: 20px;
   text-align: left;
   margin: 25px;
   color: white;
+  font-size: 18px;
 }
 
 .material-symbols-outlined {
@@ -52,6 +55,10 @@ h3{
   text-align: left;
   margin-left: 7%;
   color: white;
+  font-size: 22px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  margin-left: 42px;
 }
 h4{
   color: white;
