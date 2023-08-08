@@ -94,6 +94,7 @@ li{
   margin-right: 25%;
   }
   .experience-titel{
+    display:inline;
     margin-left: 40px;
     padding: 0px; 
     color: white;
